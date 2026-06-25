@@ -3,7 +3,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 public class Main
 {
-	public static void receipt(String[] args) {
+	public static void main(String[] args) {
 	    //scanner api
 		Scanner input  = new Scanner(System.in);
 		try {
@@ -18,7 +18,7 @@ public class Main
 		     DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 		     //end of date api
 		     //input 
-		     System.out.println("RECEIPT GENERATOR ")
+		     System.out.println("RECEIPT GENERATOR  made by jcewan");
 		    System.out.println("Enter your shopname");
 		    shopname =  input.nextLine();
 		      System.out.println("Enter your item");
