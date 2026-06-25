@@ -59,6 +59,8 @@
                 }
                 System.out.println("--------------------");
                 System.out.println("Total: PHP" + total);
+                System.out.println("Cash "+cash);
+                System.out.println("Change");
                 System.out.println(cash - total);
                  }
             //end of output
