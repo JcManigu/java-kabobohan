@@ -10,6 +10,7 @@ public class Main
 		    //value and price 
 		    String shopname;
 		   String item1, item2 = "";
+		    double amount = 200;
 		  double price1, price2 = 0;
 		     String choice;
 		     //end 
@@ -34,10 +35,13 @@ public class Main
                 item2 = input.nextLine();
                 System.out.print("Enter your price 2: ");
                 price2 = input.nextDouble();
-                input.nextLine();  
+                
+                
             }
+             
             //end of input value
             //output
+             for (int i = 1; i < 4; i++){
 		     String formattedDate = myDateObj.format(myFormatObj);
            System.out.println("CASH RECEIPT");
             System.out.println("Shopname:"+ shopname);
@@ -49,13 +53,14 @@ public class Main
 		    System.out.println("Item : " + item1 + " - PHP" + price1);
 		    //total 
 		                double total = price1;
-		      
                      if (!item2.isEmpty()) {
                 System.out.println("Item 2: " + item2 + " - PHP" + price2);
                       total += price2;
             }
             System.out.println("--------------------");
             System.out.println("Total: PHP" + total);
+            System.out.println(amount - total);
+             }
         //end of output
 			//catch the error
 		} catch(Exception E) {
