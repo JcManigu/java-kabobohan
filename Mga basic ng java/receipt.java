@@ -41,7 +41,7 @@
                  
                 //end of input value
                 //output
-                 for (int i = 1; i < 4; i++){
+                 for (int i = 1; i < 6; i++){
     		     String formattedDate = myDateObj.format(myFormatObj);
                System.out.println("CASH RECEIPT");
                 System.out.println("Shopname:"+ shopname);
